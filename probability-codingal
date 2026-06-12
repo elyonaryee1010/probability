@@ -45,4 +45,96 @@ def probability():
     print("Probability:", probability)
 
 
+==Conditional Probability==
+def a_and_b():
+    if a==1:
+        prob_student = 2.3
+    if b==1:
+        prob_dinning = 0.75
+    else:
+        prob_dinning = 0.25
+        print("Probability of given data", a_and_b)
+
+    if a==2:
+        prob_student = 0.7
+    if b==1:
+        prob_dining = 0.8
+    else:
+    prob_dining = 0.4
+
+
+print("", a_and_b)
+prob_a_and_b = prob_student*prob_dinning
+return round(prob_a_and_b)
+
+print("Check the probability")
+
+print("Is the student a Freshman or not?")
+a = int(input("Enter your answer"))
+
+print("Is the student at the dining table")
+b= int(input("Enter your answer")
+
+print("Here is the probability", prob_a_and_b(a,b))
+
+
+==Multiplication Method==
+
+def prob_a_andb(a,b):
+    prob_a = orange/total
+
+    prob_bga = blue/(total)
+
+    prob_AandB = prob_a*prob_b
+
+return round(prob_AandB)
+
+orange = int(input("Enter:"))
+blue = int(input("Enter:"))
+total = orange+blue
+
+
+print("Probability")
+    print(prob_a_andb(a,b))
+
+==Pick a Shirt==
+print("Find the probability of 2 shirts you pick")
+
+
+
+first_blue_pick = int(input("Enter First Pick"))
+
+
+
+    if first_pick==1:
+        next_shirt_prob == 1.7
+    else:
+        next_shirt_prob ==0.7
+    print("======")
+
+total = next_shirt_prob+first_pick
+    next_shirt_is_red == first_pick/total
+
+#Finding if the probability of if the 1st pick is red, and the second shirt is blue
+red_shirts = 2
+blue_shirts = 4
+white_shirts = 9
+total = 3
+
+total_probability = red_shirts*blue_shirts*white_shirts
+
+probability1 = print(red_shirts/total)
+probability2 = print(blue_shirts/total)
+probability3 = print(white_shirts/total)
+
+
+
+    
+    
+    
+        
+    
+    
+    
+
     
