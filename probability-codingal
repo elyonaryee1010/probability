@@ -127,7 +127,21 @@ probability1 = print(red_shirts/total)
 probability2 = print(blue_shirts/total)
 probability3 = print(white_shirts/total)
 
+#CoinCDF
+import scipy.stats as stats
 
+prob = 1- stats.binom.cdf(6,10,0.5)
+print("Probability of getting more than 4 heads", prob)
+
+#Rain Expectation
+
+import scipy.stats a stats
+
+prob1 = stats.poisson.pmf(6,10)
+print("Probability of raining for exactly 6 days", prob1)
+
+prob2 = stats.poisson.pmf(12,10) + stats.poisson.pmt(13,10) + stats.poisson.pmf(14,10)
+print("Probability of raining for 12-14 days:", prob2)
 
     
     
