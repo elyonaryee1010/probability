@@ -135,7 +135,7 @@ print("Probability of getting more than 4 heads", prob)
 
 #Rain Expectation
 
-import scipy.stats a stats
+import scipy.stats as stats
 
 prob1 = stats.poisson.pmf(6,10)
 print("Probability of raining for exactly 6 days", prob1)
@@ -143,9 +143,19 @@ print("Probability of raining for exactly 6 days", prob1)
 prob2 = stats.poisson.pmf(12,10) + stats.poisson.pmt(13,10) + stats.poisson.pmf(14,10)
 print("Probability of raining for 12-14 days:", prob2)
 
-    
-    
-    
+ #Calls Poisson   
+
+import scipy.stats as stats
+
+prob1 = stats.poisson.pmf(20,15)
+print("Probability of observing morethan 20calls?", prob1)
+
+prob2 = stats.poisson.pmf(17,15) + stats.poisson.pmf(18,15)
++ stats.poisson.pmf(19,15) + stats.poisson.pmf(20,15) + stats.poisson.pmf(21,15)
+print("Probability of observing between 17 to 21 calls", prob2)
+
+
+
         
     
     
