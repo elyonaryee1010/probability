@@ -212,13 +212,13 @@ numpy.random.randint(
 means.append(x)
 k = 0
 
-sns.histogram(x="", y="",color='blue',edgecolor='red',label=label)
-plt.title("Central Limit Theorem")
-plt.xlabel("")
-plt.ylabel("")
+fig,ax = plt.subplot(2,2, figsize=(6,6))
+for i in range(0,2)L
+    for j in range(0,2):
+        ax[i,j[.hist(means[k],10,density=True)
+        ax[i,j].set_title(label = num[k])
+        k = k +1
 plt.show()
-
-
 
 
 
