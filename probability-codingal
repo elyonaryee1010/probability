@@ -154,6 +154,8 @@ prob2 = stats.poisson.pmf(17,15) + stats.poisson.pmf(18,15)
 + stats.poisson.pmf(19,15) + stats.poisson.pmf(20,15) + stats.poisson.pmf(21,15)
 print("Probability of observing between 17 to 21 calls", prob2)
 
+
+
 #--puppies data sampling--
 import numpy as np 
 
@@ -194,6 +196,27 @@ print("New Standard Deviation", twentry_sample_props.std())
 print("New Variance", twenty_sample_props.var())
 
 #CTR
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+num  = [1,10,50,100]
+
+means = []
+
+for j in num:
+    numpy.random.seed(1)
+x = [numpy.mean(
+numpy.random.randint(
+-40,40,j)) for _i in range(1000)
+means.append(x)
+k = 0
+
+sns.histogram(x="", y="",color='blue',edgecolor='red',label=label)
+plt.title("Central Limit Theorem")
+plt.xlabel("")
+plt.ylabel("")
+plt.show()
 
 
 
